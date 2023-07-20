@@ -1,0 +1,232 @@
+﻿.top-owl-slider .carous-el {
+    width: 100%;
+    background: none;
+    padding: 0;
+    text-align: left;
+    border: 0;
+}
+
+.top-owl-slider .item .box {
+    position: relative !important;
+    top: 50%;
+}
+
+.top-owl-slider .item.show-me::after {
+    position: absolute;
+    content: '';
+    background: #00000054;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.top-owl-slider .carous-el h2.title.animated.h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif;
+}
+
+
+.client-logo img {
+    width: 100px;
+    margin: 0 auto;
+    opacity: 0.8;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+section.bannar {
+    margin-top: -168px;
+    opacity: 111;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 12px 0 15px;
+}
+
+.header-content .owl-theme .owl-controls .owl-pagination {
+    z-index: 1111;
+}
+
+.owl-icons.owl-carousel.owl-theme .owl-item img.img-responsive {
+    width: 62px;
+    margin: 0 auto;
+    height: 100px;
+    object-fit: contain;
+    transition: all 0.5s;
+}
+
+.owl-icons-wrapper .owl-icons figure:hover img.img-responsive {
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all 0.5s;
+}
+
+section.header-content {
+    padding-top: 84px;
+}
+
+.top-owl-slider .item .box {
+    position: relative !important;
+    top: 41%;
+}
+
+.carous-el p {
+    font-size: 18px;
+}
+
+.header-content .item .btn {
+    margin-top: 30px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    font-size: 16px;
+}
+
+.stretcher-wrapper .stretcher .stretcher-item {
+    border: 1px solid #d1d1d1;
+}
+
+.stretcher-wrapper {
+    background-color: #e7e7e7 !important;
+}
+.stretcher-wrapper .stretcher .stretcher-item.more {
+    background-color: #cfcece;
+}
+
+.stretcher-wrapper .stretcher .stretcher-item {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.stretcher-wrapper .stretcher .stretcher-item figure {
+    background-color: rgb(1 104 180);
+}
+
+section.blog {
+    display: block;
+}
+
+section.contact.home_contact .left-contact {
+    width: 50% !important;
+}
+
+section.contact.home_contact .right-contact {
+    width: 50%;
+    background: #f1f3f4;
+}
+
+section.contact.home_contact .left-contact iframe {
+    width: 100%;
+    height: 100%;
+}
+
+section.contact.home_contact .contact-head {
+    padding-top: 0;
+}
+
+section.contact.home_contact .col-md-10.form-area.m-auto {
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px){
+    .header-content .item {
+        margin-top: 0 !important;
+    }
+
+    section.header-content {
+        padding-top: 71px !important;
+    }
+
+    .top-owl-slider .carous-el h2.title.animated.h1 {
+        font-size: 25px;
+    }
+
+    .carous-el p {
+        font-size: 14px;
+    }
+
+    .owl-icons.owl-carousel.owl-theme .owl-item img.img-responsive {
+        width: 39px;
+        height: 60px;
+    }
+
+    .owl-icons-wrapper.owl-icons-frontpage {
+        margin-top: -156px;
+    }
+
+    .owl-theme .owl-controls .owl-buttons {
+        opacity: 0 !important;
+    }
+
+    section.introduction .col-md-6 {
+        padding: 0;
+    }
+
+    .intro-head .bar {
+        display: none;
+    }
+
+    .intro-images {
+        margin-top: 15px;
+    }
+
+    section.blog header {
+        margin-bottom: 20px;
+    }
+
+    .row.contact-test {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    section.contact.home_contact .left-contact {
+        width: 100% !important;
+    }
+
+    section.contact.home_contact .right-contact {
+        width: 100%;
+    }
+
+    section.contact.home_contact .col-md-10.form-area.m-auto {
+        padding-top: 36px;
+    }
+
+    .col-md-12.form-area {
+        padding: 9px 30px 20px 30px;
+    }
+
+    section.contact.home_contact {
+        padding-bottom: 0 !important;
+    }
+
+    .intro-images {
+        padding: 10px;;
+    }
+
+    section {
+        padding-bottom: 32px !important;
+    }
+
+    .owl-icons-wrapper.owl-icons-frontpage {
+        padding-bottom: 0 !important;
+    }
+
+    section.introduction {
+        margin-top: 18px;
+        padding-bottom: 32px !important;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1470px){
+    .header-content .item {
+        height: 587px;
+    }
+}
